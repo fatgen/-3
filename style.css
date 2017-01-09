@@ -3,8 +3,7 @@ p{
 text-align: center;
 }
 .success-message{
-  color: green;
-  font-style: #3c763d;
+  color: #3c763d;
   background: #dff0d8;
   border:solid #c6e9a6;
   width: 400px; height: 40px;
@@ -15,8 +14,7 @@ text-align: center;
 }
 
 .error-message{
-  color: pink;
-  font-style: #a94442;
+  color: #a94442;
   background: #f2dede;
   border:solid #ebccd1;
   width: 400px; height: 40px;
@@ -27,12 +25,15 @@ text-align: center;
 }
 
 .info-message{
-  color: blue;
-  font-style: #3a87ad;
+  color: #3a87ad;
   background: #d9edf7 ;
   border:solid #bce8f1;
   width: 400px; height: 40px;
   margin: 10px 0;
   padding-top: 15px;
   padding-left: 10px;
+}
+
+.bold{
+  font-weight: bold;
 }
